@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ff6600;
+    padding: 20px 0;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+main {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.consulta-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.consulta-title {
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.consulta-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.viagens-list {
+    margin-top: 10px;
+}
+
+.totalizados-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.totalizados-title {
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.totalizados-text {
+    font-size: 16px;
+}
+
+.totalizados-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.form-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #e65c00;
+}
+
+.excluir-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.excluir-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.totalizados-consulta-container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+/* Estilo da tela de consulta */
+.consulta-container {
+    flex: 1; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.consulta-title {
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.consulta-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.viagens-list {
+    margin-top: 10px;
+}
+
+/* Estilo do bloco "Dados Totalizados" */
+.totalizados-container {
+    flex: 1; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; 
+}
+
+.totalizados-title {
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.totalizados-text {
+    font-size: 16px;
+}
+
+.totalizados-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.cadastro-totalizados-container {
+    display: flex;
+    align-items: flex-start; 
+}
+
+/* Estilo do formulário de cadastro */
+.cadastro-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; 
+}
+
+/* Estilo do bloco "Dados Totalizados" */
+.totalizados-container {
+    width: 200px; 
+    height: 470px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    top: -20px; 
+}

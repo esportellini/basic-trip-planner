@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Cadastro de Viagens</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="cadastro-totalizados-container">
+                <form id="cadastro-form" class="cadastro-form">
+                    <h2 class="form-title">Preencha os dados da viagem</h2>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="destino">Destino:</label>
+                        <input type="text" id="destino" name="destino" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="data">Data:</label>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivo">Motivo:</label>
+                        <textarea id="motivo" name="motivo" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="form-button">Cadastrar Viagem</button>
+                </form>
+                <div class="totalizados-container">
+                    <h2 class="totalizados-title">Dados Totalizados</h2>
+                    <p class="totalizados-text">Total de Viagens Cadastradas: <span id="totalViagens" class="totalizados-number">0</span></p>
+                    <canvas id="graficoDestinos" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="consulta-container">
+                <h2 class="consulta-title">Tela de Consulta</h2>
+                <input type="text" id="busca" class="consulta-input" placeholder="Digite o destino da viagem">
+                <div id="viagens-list" class="viagens-list"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Desenvolvido por Enzo Sportellini &copy; 2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
