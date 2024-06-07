@@ -1,5 +1,5 @@
 # basic-trip-planner
-Site basico de cadastro de viagem 
+Site basico de cadastro de viagem: https://esportellini.github.io/basic-trip-planner/
 
 # Membros
 
